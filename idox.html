@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuscola Storm Chasers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tuscola Storm Chasers</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#weather">Weather Tracking</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Seven-Day Weather Forecast</h2>
+        <div id="weather-forecast">
+            <!-- Weather forecast data will be dynamically populated here -->
+        </div>
+        <p>Please note that this forecast may change every seven days.</p>
+        <img id="changing-image" src="default-image.jpg" alt="Changing Image">
+    </section>
+    <section id="weather">
+        <h2>Weather Tracking Page</h2>
+        <div id="live-feed">
+            <!-- Live video feed and alert status will be dynamically updated here -->
+        </div>
+        <p id="alert-status">Listening for alerts...</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
